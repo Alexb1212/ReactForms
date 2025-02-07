@@ -24,7 +24,6 @@ const SignUpForm = (props) => {
     } catch (err) {
       setError(error.message);
     }
-    handleSubmit();
   }
 
   
